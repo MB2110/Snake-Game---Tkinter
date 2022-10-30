@@ -211,7 +211,7 @@ class Application:
       self.direction = "d"
       self.moved = False
 
-# Declaring the main loop (outside of any classes)
+# Declaring the main loop outside of any classes
 def main():
   root = Tk()
   Application(root)
